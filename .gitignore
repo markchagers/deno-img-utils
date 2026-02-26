@@ -1,0 +1,4 @@
+.vscode
+testFiles/*.jpeg
+testFiles/*.jpg
+testFiles/*.png
