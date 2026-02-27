@@ -14,12 +14,3 @@ export interface IPreset {
     sizeType: TSizeType;
     trgFmt: TTargetFileFormat;
 }
-
-export const getLargeImgPreset = (): IPreset => ({
-    name: 'Large Images',
-    size: 6000,
-    sizeType: 'area',
-    src: '/Users/mark/NoBackup/tempfiles/aigen/',
-    trg: '/Users/mark/NoBackup/tempfiles/test/',
-    trgFmt: 'jpg',
-});

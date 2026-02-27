@@ -1,9 +1,9 @@
 import { decodeBase64 } from 'base64';
 
 // This script will convert those pesky .inetloc files that sometimes result
-// from dragging an image from a browser window to the desktop
-// first argument is the path to directory that contains those files
+// from dragging an image from a safari window to the desktop
 
+// first argument is the path to directory that contains those files
 const dirname = Deno.args[0];
 
 for await (const dirEntry of Deno.readDir(dirname)) {

@@ -2,3 +2,4 @@
 testFiles/*.jpeg
 testFiles/*.jpg
 testFiles/*.png
+presets.ts
